@@ -1,4 +1,4 @@
-// DATA.JS – Andria's Bites Products
+// DATA.JS – Andria's Bakery Products
 
 const products = [
 

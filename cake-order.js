@@ -45,7 +45,7 @@ orderBtn.addEventListener('click', () => {
     return;
   }
 
-  const text = `Hello Andria's Bites 👋%0A%0ACake Order Details:%0A• Size: ${sizeText}%0A• Flavor: ${flavor}%0A• Message: ${messageText}%0A• Price: GHS ${price}%0A• Delivery Date: ${delivery}%0A%0ACustomer:%0A${name}%0APhone: ${phone}%0A%0AMake payment via MTN MoMo / Telecel Cash.`;
+  const text = `Hello Andria's Bakery 👋%0A%0ACake Order Details:%0A• Size: ${sizeText}%0A• Flavor: ${flavor}%0A• Message: ${messageText}%0A• Price: GHS ${price}%0A• Delivery Date: ${delivery}%0A%0ACustomer:%0A${name}%0APhone: ${phone}%0A%0AMake payment via MTN MoMo / Telecel Cash.`;
 
   // Open WhatsApp link
   window.open(`https://wa.me/233545700691?text=${text}`, '_blank');
