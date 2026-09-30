@@ -255,6 +255,109 @@ body {
   font-weight: bold;
 }
 
+/* CONTACT SECTION */
+.contact-section {
+    background: #fff3e6;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contact-subtitle {
+    color: #a36b43;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.contact-section h2 {
+    color: #3b2417;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin: 12px 0;
+}
+
+.contact-description {
+    color: #5a3e36;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+}
+/* CONTACT CARDS */
+.contact-cards {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+}
+
+.contact-card {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(59, 36, 23, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+}
+
+.contact-icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.contact-card h3 {
+    color: #3b2417;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact-card p {
+    color: #5a3e36;
+    line-height: 1.6;
+    min-height: 50px;
+}
+/*CONTACT BUTTONS*/
+.contact-btn {
+    display: inline-block;
+    background: #5a3e36;
+    color: #fff3e6;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: #7a4a2e;
+}
+
+.contact-link {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.contact-link a {
+    display: inline-block;
+    background: #5a3e36;
+    color: #fff3e6;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.contact-link a:hover {
+    background: #7a4a2e;
+    transform: translateY(-3px);
+}
 /* FOOTER */
 .footer {
   background: var(--chocolate-dark);
@@ -275,7 +378,15 @@ body {
     font-size: 0.95rem;
   }
 }
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 50px 15px;
+    }
 
+    .contact-section h2 {
+        font-size: 28px;
+    }
+}
 @media (max-width: 480px) {
   .products {
     grid-template-columns: 1fr;
